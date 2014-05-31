@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> employee company</title>
+</head>
+<body>
+
+    <a href="{% url 'employee_logout' %}"> logout </a>
+
+    <p> </p>
+
+    {% if companyAssigned %}
+        <table>
+            {% for i in companyAssigned %}
+                <tr>
+                    <td>{{ i.companyName.companyName }}</td>
+                    <td>{{ i.companyName.tagLine }}</td>
+                    <td>{{ i.companyName.logo }}</td>
+                    <td>{{ i.companyName.description }}</td>
+                    <td> <a href="{% url 'customer_give_feedback' i.companyName.pk %}">
+                        view feedback
+                    </a> </td>
+                </tr>
+            {% endfor %}
+        </table>
+    {% else %}
+        <p> You have been assigned no company</p>
+    {% endif %}
+
+
+</body>
+</html>

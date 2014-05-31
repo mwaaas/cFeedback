@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Company Feedback</title>
+</head>
+<body>
+
+<p>  Feedbacks for {{ company.companyName }}</p>
+
+    {% if feedback %}
+        <table>
+            {% for i in feedback %}
+                <tr>
+                    <td>{{ i.fname }}</td>
+                    <td>{{ i.lname }}</td>
+                    <td>{{ i.phoneNumber }}</td>
+                    <td> {{ i.comment }}</td>
+                </tr>
+
+            {% endfor %}
+        </table>
+    {% else %}
+        <p> No feedbacks given</p>
+    {% endif %}
+
+    {% if addFeedbackForm %}
+         <form id= "giveCustomerFeedback" action = {% url 'customer_give_feedback' company.pk %} method = 'POST'>
+            {% csrf_token %}
+            {{addFeedbackForm.as_p}}
+            <input id="submitCustomerFeedback" type="submit" value="add" />
+        </form>
+    {% endif %}
+
+
+</body>
+</html>

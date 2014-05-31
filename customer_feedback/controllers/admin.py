@@ -28,7 +28,6 @@ def login(request):
 
                            )
 
-
 def logout(request):
     return HttpResponseRedirect(reverse('home'))
 

@@ -46,4 +46,22 @@ def edit(request, pk):
                                   )
 
 def login(request):
-    pass
+    employeeLoginForm = Form.EmployeeLoginForm()
+    if request.method == 'POST':
+        employeeLoginForm = Form.EmployeeLoginForm(request.POST)
+        if employeeLoginForm.is_valid():
+            employee = models.Employee.objects.get(fname=request.POST['fname'],
+                                                     lname=request.POST['lname'],
+                                                     password=request.POST['password'])
+            companyAssigned = models.Assigned.objects.filter(employee=employee)
+
+            return render_to_response("employeeCompany.html",
+                                      {'companyAssigned':companyAssigned},
+                               context_instance=RequestContext(request)
+                               )
+    return render_to_response("employeeLogin.html",
+                              {'employeeLoginForm':employeeLoginForm},
+                       context_instance=RequestContext(request),
+                       )
+def logout(request):
+    return HttpResponseRedirect(reverse('home'))

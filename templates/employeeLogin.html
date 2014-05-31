@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee login</title>
+</head>
+<body>
+
+    <form id= "employeLoginForm" action = {% url 'employee_login' %} method = 'POST'>
+        {% csrf_token %}
+        {{employeeLoginForm.as_p}}
+        <input id="submitEmployeePassword" type="submit" value="login" />
+    </form>
+</body>
+</html>
