@@ -56,7 +56,7 @@ def login(request):
             companyAssigned = models.Assigned.objects.filter(employee=employee)
 
             return render_to_response("employeeCompany.html",
-                                      {'companyAssigned':companyAssigned},
+                                      {'companies':companyAssigned},
                                context_instance=RequestContext(request)
                                )
     return render_to_response("employeeLogin.html",

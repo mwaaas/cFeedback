@@ -10,7 +10,7 @@ __author__ = 'mwas'
 def view(request):
     all_companies = models.Company.objects.all()
     return render_to_response('company.html',
-                              {'all_companies':all_companies},
+                              {'companies':all_companies},
                               context_instance=RequestContext(request)
                               )
 
@@ -18,7 +18,7 @@ def view(request):
 def add(request):
     add_company_form = Form.AddCompanyForm()
     if request.method == 'POST':
-        add_company_form = Form.AddCompanyForm(request.POST)
+        add_company_form = Form.AddCompanyForm(request.POST, request.FILES)
         if add_company_form.is_valid():
             add_company_form.save()
             return HttpResponseRedirect(reverse('view_company'))
@@ -40,9 +40,15 @@ def edit(request, pk):
                               )
 
 def assign(request, pk):
-    companyName = models.Company.objects.get(pk=pk).companyName
-    assign_form = Form.AssignEmployee({'companyName':companyName})
+    companyName = models.Company.objects.get(pk=pk)
+
+    assign_form = Form.AssignEmployee()
+
+    #assign_form = Form.AssingForm(companyId=pk)
     if request.method == 'POST':
+        #data = request.POST.copy()
+        #data['companyId'] = pk
+        #assign_form = Form.AssingForm(data)
         assign_form = Form.AssignEmployee(request.POST)
 
         if assign_form.is_valid():
@@ -60,10 +66,9 @@ def delete(request, pk):
     models.Company.objects.get(pk=pk).delete()
     return HttpResponseRedirect(reverse('view_company'))
 
-def view_feedback(request, company_id):
+def feedback(request, company_id):
     feedback= models.Feedback.objects.filter(company_id=company_id)
     company = models.Company.objects.get(pk=company_id)
-
 
     return render_to_response('companyFeedback.html',{'feedback':feedback, 'company':company},
                               context_instance = RequestContext(request),

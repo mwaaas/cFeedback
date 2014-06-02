@@ -1,14 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Employee login</title>
-</head>
-<body>
+{% extends 'home.html' %}
 
-    <form id= "employeLoginForm" action = {% url 'employee_login' %} method = 'POST'>
+{% block content %}
+     <form id= "employeLoginForm" action = {% url 'employee_login' %} method = 'POST'>
         {% csrf_token %}
         {{employeeLoginForm.as_p}}
         <input id="submitEmployeePassword" type="submit" value="login" />
-    </form>
-</body>
-</html>
+     </form>
+{% endblock %}

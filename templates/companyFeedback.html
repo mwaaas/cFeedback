@@ -1,26 +1,35 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Company Feedback</title>
-</head>
-<body>
+{% extends 'home.html'%}
 
-<p>  Feedbacks for {{ company.companyName }}</p>
+{% block content %}
+    {% if company %}
+            <table>
+                    <tr>
+                        <td>
+                            <img src="{{ company.logo.thumb_url }}"/>
+                        </td>
+                        <td>
+                            <h1> {{ company.companyName }}</h1>
+                            <h6> {{ company.tagLine }}</h6>
+                        </td>
+                    </tr>
+            </table>
+    {% endif %}
 
     {% if feedback %}
-        <table>
-            {% for i in feedback %}
-                <tr>
-                    <td>{{ i.fname }}</td>
-                    <td>{{ i.lname }}</td>
-                    <td>{{ i.phoneNumber }}</td>
-                    <td> {{ i.comment }}</td>
-                </tr>
-
-            {% endfor %}
-        </table>
+        {%  for i in feedback %}
+            <div class="companyDescription">
+                <table>
+                    <tr>
+                        <td>{{ i.fname }}</td>
+                        <td>{{ i.lname }}</td>
+                        <td>{{ i.phoneNumber }}</td>
+                    </tr>
+                </table>
+                <p> {{ i.comment }}</p>
+            </div>
+        {% endfor %}
     {% else %}
-        <p> No feedbacks given</p>
+        <p> No feedback given yet </p>
     {% endif %}
 
     {% if addFeedbackForm %}
@@ -31,6 +40,5 @@
         </form>
     {% endif %}
 
+{% endblock %}
 
-</body>
-</html>

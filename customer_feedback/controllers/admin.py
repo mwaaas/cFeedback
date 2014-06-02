@@ -19,8 +19,7 @@ def login(request):
 
         #this validates and check if the password is valid
         if adminLoginForm.is_valid():
-            return render_to_response('manage.html',{},
-                                   context_instance=RequestContext(request))
+            return HttpResponseRedirect(reverse('view_company'))
 
     return render_to_response('adminLogin.html',
                            {'adminLoginForm':adminLoginForm},
