@@ -1,7 +1,555 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8cba7505-7fdd-45a9-871c-75752a9228a4" name="Default" comment="" />
+    <list default="true" id="8cba7505-7fdd-45a9-871c-75752a9228a4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/companyAdminFeedback.html" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\Python-ast.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\Python.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\abstract.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\asdl.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\ast.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\bitset.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\boolobject.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\bufferobject.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\bytearrayobject.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\bytes_methods.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\bytesobject.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\cStringIO.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\cellobject.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\ceval.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\classobject.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\cobject.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\code.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\codecs.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\compile.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\complexobject.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\datetime.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\descrobject.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\dictobject.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\dtoa.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\enumobject.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\errcode.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\eval.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\fileobject.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\floatobject.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\frameobject.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\funcobject.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\genobject.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\graminit.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\grammar.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\import.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\intobject.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\intrcheck.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\iterobject.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\listobject.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\longintrepr.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\longobject.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\marshal.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\memoryobject.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\metagrammar.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\methodobject.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\modsupport.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\moduleobject.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\node.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\object.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\objimpl.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\opcode.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\osdefs.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\parsetok.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\patchlevel.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pgen.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pgenheaders.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\py_curses.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pyarena.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pycapsule.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pyconfig.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pyctype.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pydebug.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pyerrors.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pyexpat.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pyfpe.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pygame\bitmask.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pygame\camera.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pygame\fastevents.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pygame\ffmovie.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pygame\font.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pygame\mask.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pygame\mixer.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pygame\pgarrinter.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pygame\pgcompat.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pygame\pgopengl.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pygame\pygame.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pygame\pygamedocs.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pygame\scrap.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pygame\surface.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pygetopt.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pymacconfig.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pymactoolbox.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pymath.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pymem.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pyopencl\pyopencl-airy.cl" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pyopencl\pyopencl-bessel-j.cl" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pyopencl\pyopencl-cephes.cl" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pyopencl\pyopencl-complex.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pyopencl\pyopencl-ranluxcl.cl" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pyport.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pystate.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pystrcmp.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pystrtod.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pythonrun.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\pythread.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\rangeobject.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\setobject.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\sliceobject.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\stringobject.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\structmember.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\structseq.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\symtable.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\sysmodule.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\timefuncs.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\token.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\traceback.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\tupleobject.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\ucnhash.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\unicodeobject.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\warnings.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Include\weakrefobject.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\UserDict.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\_abcoll.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\_weakrefset.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\abc.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\codecs.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\copy_reg.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\distutils\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\distutils\distutils.cfg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\aliases.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\ascii.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\base64_codec.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\big5.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\big5hkscs.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\bz2_codec.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\charmap.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\cp037.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\cp1006.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\cp1026.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\cp1140.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\cp1250.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\cp1251.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\cp1252.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\cp1253.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\cp1254.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\cp1255.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\cp1256.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\cp1257.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\cp1258.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\cp424.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\cp437.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\cp500.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\cp720.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\cp737.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\cp775.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\cp850.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\cp852.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\cp855.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\cp856.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\cp857.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\cp858.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\cp860.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\cp861.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\cp862.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\cp863.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\cp864.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\cp865.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\cp866.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\cp869.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\cp874.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\cp875.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\cp932.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\cp949.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\cp950.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\euc_jis_2004.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\euc_jisx0213.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\euc_jp.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\euc_kr.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\gb18030.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\gb2312.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\gbk.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\hex_codec.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\hp_roman8.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\hz.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\idna.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\iso2022_jp.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\iso2022_jp_1.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\iso2022_jp_2.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\iso2022_jp_2004.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\iso2022_jp_3.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\iso2022_jp_ext.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\iso2022_kr.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\iso8859_1.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\iso8859_10.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\iso8859_11.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\iso8859_13.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\iso8859_14.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\iso8859_15.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\iso8859_16.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\iso8859_2.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\iso8859_3.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\iso8859_4.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\iso8859_5.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\iso8859_6.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\iso8859_7.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\iso8859_8.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\iso8859_9.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\johab.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\koi8_r.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\koi8_u.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\latin_1.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\mac_arabic.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\mac_centeuro.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\mac_croatian.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\mac_cyrillic.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\mac_farsi.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\mac_greek.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\mac_iceland.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\mac_latin2.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\mac_roman.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\mac_romanian.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\mac_turkish.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\mbcs.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\palmos.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\ptcp154.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\punycode.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\quopri_codec.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\raw_unicode_escape.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\rot_13.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\shift_jis.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\shift_jis_2004.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\shift_jisx0213.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\string_escape.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\tis_620.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\undefined.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\unicode_escape.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\unicode_internal.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\utf_16.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\utf_16_be.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\utf_16_le.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\utf_32.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\utf_32_be.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\utf_32_le.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\utf_7.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\utf_8.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\utf_8_sig.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\uu_codec.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\encodings\zlib_codec.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\fnmatch.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\genericpath.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\linecache.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\locale.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\no-global-site-packages.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\ntpath.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\orig-prefix.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\os.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\posixpath.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\re.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\_markerlib\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\_markerlib\markers.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\easy_install.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip-1.5.6.dist-info\DESCRIPTION.rst" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip-1.5.6.dist-info\METADATA" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip-1.5.6.dist-info\RECORD" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip-1.5.6.dist-info\WHEEL" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip-1.5.6.dist-info\entry_points.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip-1.5.6.dist-info\metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip-1.5.6.dist-info\top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\__main__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\_markerlib\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\_markerlib\markers.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\colorama\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\colorama\ansi.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\colorama\ansitowin32.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\colorama\initialise.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\colorama\win32.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\colorama\winterm.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\distlib\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\distlib\_backport\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\distlib\_backport\misc.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\distlib\_backport\shutil.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\distlib\_backport\sysconfig.cfg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\distlib\_backport\sysconfig.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\distlib\_backport\tarfile.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\distlib\compat.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\distlib\database.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\distlib\index.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\distlib\locators.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\distlib\manifest.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\distlib\markers.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\distlib\metadata.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\distlib\resources.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\distlib\scripts.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\distlib\t32.exe" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\distlib\t64.exe" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\distlib\util.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\distlib\version.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\distlib\w32.exe" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\distlib\w64.exe" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\distlib\wheel.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\html5lib\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\html5lib\constants.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\html5lib\filters\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\html5lib\filters\_base.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\html5lib\filters\alphabeticalattributes.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\html5lib\filters\inject_meta_charset.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\html5lib\filters\lint.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\html5lib\filters\optionaltags.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\html5lib\filters\sanitizer.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\html5lib\filters\whitespace.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\html5lib\html5parser.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\html5lib\ihatexml.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\html5lib\inputstream.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\html5lib\sanitizer.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\html5lib\serializer\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\html5lib\serializer\htmlserializer.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\html5lib\tokenizer.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\html5lib\treeadapters\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\html5lib\treeadapters\sax.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\html5lib\treebuilders\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\html5lib\treebuilders\_base.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\html5lib\treebuilders\dom.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\html5lib\treebuilders\etree.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\html5lib\treebuilders\etree_lxml.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\html5lib\treewalkers\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\html5lib\treewalkers\_base.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\html5lib\treewalkers\dom.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\html5lib\treewalkers\etree.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\html5lib\treewalkers\genshistream.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\html5lib\treewalkers\lxmletree.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\html5lib\treewalkers\pulldom.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\html5lib\trie\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\html5lib\trie\_base.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\html5lib\trie\datrie.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\html5lib\trie\py.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\html5lib\utils.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\pkg_resources.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\re-vendor.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\adapters.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\api.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\auth.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\cacert.pem" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\certs.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\compat.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\cookies.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\exceptions.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\hooks.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\models.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\chardet\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\chardet\big5freq.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\chardet\big5prober.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\chardet\chardetect.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\chardet\chardistribution.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\chardet\charsetgroupprober.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\chardet\charsetprober.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\chardet\codingstatemachine.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\chardet\compat.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\chardet\constants.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\chardet\cp949prober.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\chardet\escprober.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\chardet\escsm.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\chardet\eucjpprober.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\chardet\euckrfreq.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\chardet\euckrprober.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\chardet\euctwfreq.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\chardet\euctwprober.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\chardet\gb2312freq.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\chardet\gb2312prober.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\chardet\hebrewprober.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\chardet\jisfreq.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\chardet\jpcntx.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\chardet\langbulgarianmodel.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\chardet\langcyrillicmodel.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\chardet\langgreekmodel.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\chardet\langhebrewmodel.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\chardet\langhungarianmodel.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\chardet\langthaimodel.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\chardet\latin1prober.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\chardet\mbcharsetprober.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\chardet\mbcsgroupprober.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\chardet\mbcssm.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\chardet\sbcharsetprober.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\chardet\sbcsgroupprober.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\chardet\sjisprober.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\chardet\universaldetector.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\chardet\utf8prober.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\urllib3\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\urllib3\_collections.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\urllib3\connection.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\urllib3\connectionpool.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\urllib3\contrib\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\urllib3\contrib\ntlmpool.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\urllib3\contrib\pyopenssl.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\urllib3\exceptions.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\urllib3\fields.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\urllib3\filepost.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\urllib3\packages\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\urllib3\packages\ordered_dict.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\urllib3\packages\six.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\urllib3\packages\ssl_match_hostname\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\urllib3\packages\ssl_match_hostname\_implementation.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\urllib3\poolmanager.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\urllib3\request.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\urllib3\response.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\connection.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\request.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\response.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\ssl_.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\timeout.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\packages\urllib3\util\url.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\sessions.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\status_codes.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\structures.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\requests\utils.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\_vendor\six.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\backwardcompat\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\basecommand.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\baseparser.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\cmdoptions.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\commands\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\commands\bundle.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\commands\completion.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\commands\freeze.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\commands\help.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\commands\install.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\commands\list.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\commands\search.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\commands\show.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\commands\uninstall.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\commands\unzip.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\commands\wheel.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\commands\zip.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\download.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\exceptions.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\index.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\locations.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\log.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\pep425tags.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\req.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\runner.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\status_codes.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\util.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\vcs\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\vcs\bazaar.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\vcs\git.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\vcs\mercurial.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\vcs\subversion.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pip\wheel.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\pkg_resources.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools-3.6.dist-info\DESCRIPTION.rst" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools-3.6.dist-info\METADATA" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools-3.6.dist-info\RECORD" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools-3.6.dist-info\WHEEL" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools-3.6.dist-info\dependency_links.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools-3.6.dist-info\entry_points.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools-3.6.dist-info\pydist.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools-3.6.dist-info\requires.txt.orig" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools-3.6.dist-info\top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools-3.6.dist-info\zip-safe" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\archive_util.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\cli-32.exe" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\cli-64.exe" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\cli-arm-32.exe" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\cli.exe" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\command\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\command\alias.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\command\bdist_egg.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\command\bdist_rpm.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\command\bdist_wininst.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\command\build_ext.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\command\build_py.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\command\develop.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\command\easy_install.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\command\egg_info.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\command\install.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\command\install_egg_info.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\command\install_lib.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\command\install_scripts.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\command\launcher manifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\command\register.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\command\rotate.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\command\saveopts.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\command\sdist.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\command\setopt.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\command\test.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\command\upload_docs.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\compat.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\depends.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\dist.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\extension.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\gui-32.exe" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\gui-64.exe" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\gui-arm-32.exe" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\gui.exe" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\lib2to3_ex.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\package_index.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\py26compat.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\py27compat.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\py31compat.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\sandbox.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\script template (dev).py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\script template.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\site-patch.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\ssl_support.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\svn_utils.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\tests\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\tests\doctest.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\tests\environment.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\tests\py26compat.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\tests\script-with-bom.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\tests\server.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\tests\test_bdist_egg.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\tests\test_build_ext.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\tests\test_develop.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\tests\test_dist_info.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\tests\test_easy_install.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\tests\test_egg_info.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\tests\test_find_packages.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\tests\test_markerlib.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\tests\test_packageindex.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\tests\test_resources.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\tests\test_sandbox.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\tests\test_sdist.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\tests\test_svn.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\tests\test_test.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\tests\test_upload_docs.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site-packages\setuptools\version.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\site.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\sre.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\sre_compile.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\sre_constants.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\sre_parse.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\stat.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\types.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Lib\warnings.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Scripts\activate" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Scripts\activate.bat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Scripts\activate.ps1" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Scripts\activate_this.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Scripts\deactivate.bat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Scripts\easy_install-2.7.exe" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Scripts\easy_install.exe" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Scripts\pip.exe" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Scripts\pip2.7.exe" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Scripts\pip2.exe" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Scripts\python.exe" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\mwas\PycharmProjects\cFeedback\env\Scripts\pythonw.exe" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customer_feedback/controllers/company.py" afterPath="$PROJECT_DIR$/customer_feedback/controllers/company.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="cFeedback.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,10 +597,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Form.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Form.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/customer_feedback/Form.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="127" column="10" selection-start="4668" selection-end="4668" vertical-scroll-proportion="0.8539945" vertical-offset="149" max-vertical-offset="1071">
+            <state line="127" column="10" selection-start="4668" selection-end="4668" vertical-scroll-proportion="0.0" vertical-offset="149" max-vertical-offset="1071">
               <folding>
                 <element signature="e#144#1031#0" expanded="false" />
                 <element signature="e#1086#2092#0" expanded="false" />
@@ -61,6 +609,60 @@
                 <element signature="e#2755#3133#0" expanded="false" />
                 <element signature="e#3176#4542#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="company.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/customer_feedback/controllers/company.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="72" column="56" selection-start="2985" selection-end="2985" vertical-scroll-proportion="0.7218182" vertical-offset="759" max-vertical-offset="1309">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="company.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/company.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="13.730769" vertical-offset="357" max-vertical-offset="1309">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="companyAdminFeedback.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/companyAdminFeedback.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="38" selection-start="91" selection-end="91" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="187">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="employeeFeedback.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/employeeFeedback.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="148" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="204">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/customer_feedback/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="49" selection-start="1215" selection-end="1215" vertical-scroll-proportion="0.0" vertical-offset="156" max-vertical-offset="816">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/customer_feedback/controllers/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="28" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -97,11 +699,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/templates/manage.html" />
         <option value="$PROJECT_DIR$/templates/company.html" />
         <option value="$PROJECT_DIR$/templates/assignCompany.html" />
         <option value="dbtable:/f2e3fc6d/fffa182d-043c-4378-aaf1-a76c0348610e/cfeedback..customer_feedback_employee" />
-        <option value="$PROJECT_DIR$/customer_feedback/controllers/company.py" />
         <option value="$PROJECT_DIR$/templates/employeeLogin.html" />
         <option value="dbtable:/f2e3fc6d/fffa182d-043c-4378-aaf1-a76c0348610e/cfeedback..customer_feedback_admin" />
         <option value="$PROJECT_DIR$/customer_feedback/controllers/admin.py" />
@@ -113,6 +713,8 @@
         <option value="$PROJECT_DIR$/cFeedback/settings.py" />
         <option value="$PROJECT_DIR$/templates/hom.html" />
         <option value="$PROJECT_DIR$/customer_feedback/Form.py" />
+        <option value="$PROJECT_DIR$/templates/companyAdminFeedback.html" />
+        <option value="$PROJECT_DIR$/customer_feedback/controllers/company.py" />
       </list>
     </option>
   </component>
@@ -199,7 +801,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="env" />
+              <option name="myItemId" value="customer_feedback" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -216,18 +818,8 @@
               <option name="myItemId" value="customer_feedback" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cFeedback" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cFeedback" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cFeedback" />
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -261,7 +853,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
+    <property name="options.lastSelected" value="com.jetbrains.heroku.HerokuSettings" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
@@ -587,12 +1179,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44221106" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21818182" sideWeight="0.67336684" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Heroku" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32663316" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21818182" sideWeight="0.33500838" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32663316" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32663316" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -602,9 +1194,9 @@
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32888147" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2969697" sideWeight="0.67336684" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20681818" sideWeight="0.33500838" order="0" side_tool="false" content_ui="combo" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.67445743" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32663316" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6649916" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.55740434" order="4" side_tool="false" content_ui="tabs" />
@@ -619,24 +1211,25 @@
     </layout>
     <layout-to-restore>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21818182" sideWeight="0.33500838" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21818182" sideWeight="0.7386935" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32888147" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.66611016" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.55740434" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32663316" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6649916" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32888147" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19924243" sideWeight="0.7386935" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26130652" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20681818" sideWeight="0.33500838" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.67445743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6649916" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32888147" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44221106" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32888147" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32663316" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Floobits Chat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -666,44 +1259,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="dbDummy://dbtable:/f2e3fc6d/fffa182d-043c-4378-aaf1-a76c0348610e/cfeedback..customer_feedback_admin">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customer_feedback/controllers/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="45" selection-start="1529" selection-end="1529" vertical-scroll-proportion="0.0" vertical-offset="347" max-vertical-offset="918" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/employeeCompany.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="165" selection-start="596" selection-end="596" vertical-scroll-proportion="-6.923077" vertical-offset="126" max-vertical-offset="867" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customer_feedback/controllers/company.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1688" selection-end="1688" vertical-scroll-proportion="0.0" vertical-offset="565" max-vertical-offset="1309" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customer_feedback/controllers/employee.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="54" selection-start="4069" selection-end="4069" vertical-scroll-proportion="1.1725147" vertical-offset="1146" max-vertical-offset="1683" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/companyFeedback.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="15" selection-start="486" selection-end="486" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="850" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customer_feedback/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="99" selection-start="2073" selection-end="2096" vertical-scroll-proportion="0.0" vertical-offset="279" max-vertical-offset="816" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/customer_feedback/controllers/customer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="245" selection-end="245" vertical-scroll-proportion="0.19680852" vertical-offset="45" max-vertical-offset="595" />
@@ -712,11 +1267,6 @@
     <entry file="file://$PROJECT_DIR$/templates/employeeLogin.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="296" selection-end="296" vertical-scroll-proportion="0.43714285" vertical-offset="0" max-vertical-offset="350" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/employeeFeedback.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="23" selection-start="76" selection-end="76" vertical-scroll-proportion="0.14571428" vertical-offset="0" max-vertical-offset="350" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/home.html">
@@ -752,9 +1302,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autogenerated.colt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/customer_feedback/Form.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="10" selection-start="4668" selection-end="4668" vertical-scroll-proportion="0.8539945" vertical-offset="149" max-vertical-offset="1071">
+        <state line="127" column="10" selection-start="4668" selection-end="4668" vertical-scroll-proportion="0.0" vertical-offset="149" max-vertical-offset="1071">
           <folding>
             <element signature="e#144#1031#0" expanded="false" />
             <element signature="e#1086#2092#0" expanded="false" />
@@ -763,6 +1327,48 @@
             <element signature="e#2755#3133#0" expanded="false" />
             <element signature="e#3176#4542#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer_feedback/controllers/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="28" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/employeeFeedback.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="148" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/companyAdminFeedback.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="38" selection-start="91" selection-end="91" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/company.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="13.730769" vertical-offset="357" max-vertical-offset="1309">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer_feedback/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="49" selection-start="1215" selection-end="1215" vertical-scroll-proportion="0.0" vertical-offset="156" max-vertical-offset="816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer_feedback/controllers/company.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="56" selection-start="2985" selection-end="2985" vertical-scroll-proportion="0.7218182" vertical-offset="759" max-vertical-offset="1309">
+          <folding />
         </state>
       </provider>
     </entry>

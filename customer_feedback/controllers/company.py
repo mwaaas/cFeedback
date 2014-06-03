@@ -70,6 +70,6 @@ def feedback(request, company_id):
     feedback= models.Feedback.objects.filter(company_id=company_id)
     company = models.Company.objects.get(pk=company_id)
 
-    return render_to_response('companyFeedback.html',{'feedback':feedback, 'company':company},
+    return render_to_response('companyAdminFeedback.html',{'feedback':feedback, 'company':company},
                               context_instance = RequestContext(request),
                               )
