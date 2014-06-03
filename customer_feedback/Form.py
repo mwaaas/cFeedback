@@ -65,6 +65,8 @@ class AddCompanyForm(forms.ModelForm):
 
     #logo = forms.CharField(label="Logo",
                            #widget=forms.ImageField)
+    description = forms.CharField(label="Description", required=True,
+                                  widget=forms.Textarea)
     class Meta:
         model = models.Company
 
@@ -89,9 +91,6 @@ class AssingForm(forms.Form):
     #    self.fields['choose_employee'] = forms.ModelChoiceField(models.Employee.objects.all())
 
     choose_employee =forms.ModelChoiceField(models.Employee.objects.all())
-
-
-
 
 class EmployeeLoginForm(forms.Form):
     fname = forms.CharField(max_length=255,
