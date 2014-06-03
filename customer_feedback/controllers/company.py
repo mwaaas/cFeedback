@@ -51,6 +51,7 @@ def assign(request, pk):
         #assign_form = Form.AssingForm(data)
         assign_form = Form.AssignEmployee(request.POST)
 
+
         if assign_form.is_valid():
             company_instance=models.Company.objects.get(pk=pk)
             employee_instance=models.Employee.objects.get(pk=request.POST['choose_employee'])
