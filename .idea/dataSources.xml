@@ -4,8 +4,8 @@
     <data-source source="LOCAL" name="Django default" uuid="fffa182d-043c-4378-aaf1-a76c0348610e">
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/cfeedback</jdbc-url>
-      <user-name>postgres</user-name>
+      <jdbc-url>jdbc:mysql://127.0.0.1:3310/cfeedback</jdbc-url>
+      <user-name>mwas</user-name>
       <user-password>dfc7dfcbdfc6dfc1dfc3dfcbdf9cdf9f</user-password>
       <libraries>
         <library>
