@@ -53,15 +53,42 @@ def login(request):
             employee = models.Employee.objects.get(fname=request.POST['fname'],
                                                      lname=request.POST['lname'],
                                                      password=request.POST['password'])
-            companyAssigned = models.Assigned.objects.filter(employee=employee)
 
-            return render_to_response("employeeCompany.html",
-                                      {'companies':companyAssigned},
-                               context_instance=RequestContext(request)
-                               )
+            return HttpResponseRedirect(reverse('employeeAssignedCompany' , kwargs={'employeeId':employee.pk}))
     return render_to_response("employeeLogin.html",
                               {'employeeLoginForm':employeeLoginForm},
                        context_instance=RequestContext(request),
                        )
 def logout(request):
     return HttpResponseRedirect(reverse('home'))
+
+def assigned(request, employeeId):
+    companyAssigned = models.Assigned.objects.filter(employee_id=employeeId)
+
+    return render_to_response("employeeCompany.html",
+                              {'companies':companyAssigned, 'employeeId':employeeId},
+                              context_instance=RequestContext(request),
+                              )
+
+
+def feedback(request,companyId,employeeId):
+    feedback = models.Feedback.objects.filter(company_id=companyId)
+    company = models.Company.objects.get(pk=companyId)
+    addFeedbackForm = Form.AddFeedbackForm()
+
+    if request.method == 'POST':
+        addFeedbackForm = Form.AddFeedbackForm(request.POST)
+        if addFeedbackForm.is_valid():
+            models.Feedback(company=company, fname=request.POST['fname'],
+                            lname=request.POST['lname'],
+                            phoneNumber=request.POST['phoneNumber'],
+                            comment=request.POST['comment']
+                            ).save()
+            addFeedbackForm = Form.AddFeedbackForm()
+
+    return render_to_response('employeeFeedback.html',
+                              {'feedback':feedback, 'company':company,
+                               'addFeedbackForm':addFeedbackForm,
+                               'employeeId':employeeId},
+                              context_instance = RequestContext(request),
+                              )

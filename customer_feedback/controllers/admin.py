@@ -37,7 +37,10 @@ def change_password(request):
         change_admin_password_form = Form.change_password_form(request.POST)
         if change_admin_password_form.is_valid():
             #save the new password
-            admin_password = models.Admin.objects.get(admin_name='admin_name')
+            try:
+                admin_password = models.Admin.objects.get(admin_name='admin_name')
+            except models.Admin.DoesNotExist:
+                admin_password = models.Admin(admin_name='admin_name', password='')
             admin_password.password = request.POST['new_password']
             admin_password.save()
 

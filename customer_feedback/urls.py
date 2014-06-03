@@ -32,6 +32,8 @@ urlpatterns += patterns('customer_feedback.controllers.employee',
                         url(r'^employee/add/', 'add', name='add_employee'),
                         url(r'^employee/edit/(?P<pk>\d+)/', 'edit', name='edit_employee'),
                         url(r'^employee/delete/(?P<pk>\d+)/', 'delete', name='delete_employee'),
+                        url(r'^employee/company/feedback/(?P<companyId>\d+)/(?P<employeeId>\d+)/', 'feedback',name='company_employee_feedback'),
+                        url(r'^employee/assigned/company/(?P<employeeId>\d+)/', 'assigned', name='employeeAssignedCompany'),
                         )
 urlpatterns += patterns('customer_feedback.controllers.customer',
                         url(r'^customer/give/feedback/(?P<pk>\d+)/','give_feedback',

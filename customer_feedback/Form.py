@@ -13,10 +13,14 @@ class admin_login_form(forms.Form):
                                )
     def clean(self):
         clean_data = super(admin_login_form, self).clean()
-        current_password =models.Admin.objects.get(admin_name="admin_name").password
-        if current_password == None:
-            #models.Admin(admin_name='admin_name', passwod = None).save()
-            models.Admin.objects.create(admin_name="admin_name", password='password')
+        try:
+            current_password =models.Admin.objects.get(admin_name="admin_name").password
+        except models.Admin.DoesNotExist:
+            current_password = ''
+
+        #if current_password == None:
+        #    #models.Admin(admin_name='admin_name', passwod = None).save()
+        #    models.Admin.objects.create(admin_name="admin_name", password='password')
         try:
             if clean_data['password']!= current_password:
                 self.errors['password'] = ["invalid password try again"]
@@ -25,7 +29,7 @@ class admin_login_form(forms.Form):
             raise KeyError
         
 class change_password_form(forms.Form):
-     current_password = forms.CharField(required=True,
+     current_password = forms.CharField(required=False,
                                label="Current password",
                                max_length=255,
                                widget=forms.PasswordInput,
@@ -39,7 +43,10 @@ class change_password_form(forms.Form):
      def clean(self):
          clean_data = super(change_password_form, self).clean()
 
-         current_password =models.Admin.objects.get(admin_name="admin_name").password
+         try:
+             current_password =models.Admin.objects.get(admin_name="admin_name").password
+         except models.Admin.DoesNotExist:
+             current_password = ''
 
          try:
              if clean_data['current_password'] != current_password:

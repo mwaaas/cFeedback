@@ -2,6 +2,7 @@
 
 {% block ul %}
     <li> <a href="{% url 'home' %}"> Home </a> </li>
+    <li> <a href="{% url 'employee_logout' %}"> logout </a></li>
 {% endblock %}
 
 {% block content %}
@@ -15,7 +16,7 @@
 
       {% if companies  %}
           {% for i in companies %}
-            <div class = "companyDescription" style="border-style: solid" onclick="window.location.href={% block onclickCompany %}'{% url 'customer_give_feedback' i.companyName.pk %}'{% endblock %}" >
+            <div class = "companyDescription" style="border-style: solid" onclick="window.location.href={% block onclickCompany %}'{% url 'company_employee_feedback' i.companyName.pk  employeeId %}'{% endblock %}" >
 
                 <table>
                     <tr>
