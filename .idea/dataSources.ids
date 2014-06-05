@@ -6,7 +6,7 @@
     <identifier-quote-string>`</identifier-quote-string>
     <synchronize>true</synchronize>
     <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-    <jdbc-url>jdbc:postgresql://127.0.0.1:5432/cfeedback</jdbc-url>
+    <jdbc-url>jdbc:postgresql://127.0.0.1:3310/cfeedback</jdbc-url>
     <user-name>postgres</user-name>
     <user-password>dfc7dfcbdfc6dfc1dfc3dfcbdf9cdf9f</user-password>
     <libraries>
